@@ -1,0 +1,41 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <link rel="shortcut icon" href="https://i.ibb.co/4pB5tKz/FB-IMG-1678099032382.jpg" type="image/x-icon">
+  <title>NGUYEN DINH NHAN | Water Sort Games</title>
+  <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+
+         <div id = "game">
+            <div id = "menu">
+                <div id = "menu-heading">@WATER SORT PUZZLE</div>
+                <div class = "lvl" id = "easy" onclick = "OpenLevel(0);">Dễ(Easy)</div>
+                <div class = "lvl" id = "medium" onclick = "OpenLevel(1);">Bình Thường(Medium)</div>
+                <div class = "lvl" id = "hard" onclick = "OpenLevel(2);">Khó(Hard)</div>
+                <div class = "lvl" id = "very-hard" onclick = "OpenLevel(3)">VERY Khó(VeryHard)</div>
+                <div class = "lvl" id = "impossible" onclick = "OpenLevel(7);">Bất Khả Thi(Impossible)</div>
+                <br><br><br>
+                
+                <div id = "rules-btn" onclick = "ShowRules();">Luật(Rules)</div>
+            </div>
+            <div id = "level"></div>
+            <div id = "rules-page">
+                <div id = "rules">
+                    <div id = "rules-heading">Luật (RULES)</div>
+                    <div id = "rules-text">Sẽ có một số ly (chính xác là ống nghiệm xD), nhiệm vụ của bạn là đặt các chất lỏng có cùng màu lại với nhau! Bạn chỉ có thể chuyển nước có màu khác từ ly này sang ly khác nếu ly kia rỗng hoặc lớp nước trên cùng của ly có cùng màu với màu của ly mà nước sẽ được lấy ra. Kính bạn đã chọn sẽ được đánh dấu để tránh nhầm lẫn. Nút khởi động lại sẽ đưa bạn trở lại điểm bắt đầu của cấp độ, đồng thời mỗi khi bạn mở cùng một cấp độ, nước sẽ bị xáo trộn. Hãy xem trò chơi thực sự 'Câu đố sắp xếp nước' trên playstore, tôi đã nhân bản nó. | There will be some glasses (or test tubes to be exact xD), your task is to put the liquids with same color together! You can transfer different colored water from one glass to another only if the other glass is empty or its top most layer of water is of the same color as that of the one from which water is to be taken. The glass you have selected will be highlighted to prevent confusion. Restart button will take you back to the beginning of the level, also every time you open the same level the water will be shuffled. Check out the real game 'Water sort puzzle' on playstore, I have cloned it.</div>
+                    <div id = "back" onclick = "HideRules();">BACK</div>
+                </div>
+            </div>
+        </div>
+
+</body>
+<audio src="https://drive.google.com/uc?export=download&id=1vMi09FH3cx7mRiXKTr4Ye39CyitaY8y6" autoplay="autoplay" loop="loop"></audio>
+
+<script src="script.js" type="text/javascript" charset="utf-8" async defer></script>
+</html>
